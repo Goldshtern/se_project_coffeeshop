@@ -21,6 +21,7 @@
   color: #2f80ed;
   margin: 183px 0 0;
   letter-spacing: -0.6px;
+  z-index: 1;
 }
 
 .header__description {
