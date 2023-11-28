@@ -59,14 +59,13 @@
         />
         <div class="header__footer">
           <div>
-          <p class="header__paragraph">Hours:</p>
-          <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
-          <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
-        </div>
-            <p class="header__paragraph-addres">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -109,6 +108,7 @@
             <fieldset class="form__fieldset">
               <label for="text" class="form__label">
                 Name *<input
+                  required
                   type="text"
                   placeholder="Name Surname"
                   class="form__input"
@@ -117,6 +117,7 @@
               </label>
               <label for="number" class="form__label">
                 Number of guests *<input
+                  required
                   type="number"
                   placeholder="1-8"
                   class="form__input"
@@ -125,6 +126,7 @@
               </label>
               <label for="datetime-local" class="form__label"
                 >Date & time *<input
+                  required
                   type="datetime-local"
                   class="form__input"
                   id="datetime-local"
@@ -132,6 +134,7 @@
               </label>
               <label for="email" class="form__label">
                 Your email *<input
+                  required
                   type="email"
                   placeholder="email@email.com"
                   class="form__input"
@@ -141,7 +144,12 @@
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" id="checkbox" />
+              <input
+                required
+                type="checkbox"
+                class="form__checkbox"
+                id="checkbox"
+              />
               I agree with terms of use
             </label>
           </form>

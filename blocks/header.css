@@ -13,7 +13,7 @@
 
 .header__title {
   max-width: 729px;
-  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -25,7 +25,7 @@
 }
 
 .header__description {
-  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
