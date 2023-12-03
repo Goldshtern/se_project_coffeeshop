@@ -43,9 +43,9 @@
 .header__span-accent {
   display: block;
   font-family: Inter, Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  font-style: normal;
   line-height: 72px;
   letter-spacing: -0.6px;
   color: #000;
@@ -62,5 +62,5 @@
 }
 
 .header__paragraph {
-  margin: 0;
+  margin: inherit;
 }
