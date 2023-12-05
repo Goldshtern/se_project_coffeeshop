@@ -11,7 +11,9 @@
 }
 
 .about {
-  padding: 100px 80px 182px;
+  padding-top: 100px;
+  padding-right: 80px;
+  padding-left: 80px;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
@@ -38,9 +40,9 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  position: relative;
-  top: 19px;
-  left: 370px;
+  margin-left: auto;
+  margin-top: 19px;
+  margin-bottom: 173px;
 }
 
 .about__paragraph {
@@ -63,5 +65,4 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
-  animation-delay: 0s;
 }
