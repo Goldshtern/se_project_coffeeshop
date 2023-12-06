@@ -32,7 +32,7 @@
   height: 60px;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
+  border-color: #838383;
   border-width: 1px;
   border-style: solid;
 }
@@ -42,9 +42,11 @@
   height: 60px;
   background-color: #2f80ed;
   padding: 0;
+  margin-top: 32px;
   margin-bottom: 32px;
   border-radius: 4px;
   font-weight: 500;
+  color: #fff;
 }
 
 .form__button:hover {
