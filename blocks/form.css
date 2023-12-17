@@ -42,16 +42,16 @@
   height: 60px;
   background-color: #2f80ed;
   padding: 0;
-  margin-top: 32px;
   margin-bottom: 32px;
   border-radius: 4px;
   font-weight: 500;
   color: #fff;
+  border: none;
 }
 
 .form__button:hover {
   opacity: 70%;
-  transition-duration: 2s;
+  transition-duration: 0.9s;
 }
 
 .form__checkbox {
